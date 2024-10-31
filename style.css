@@ -1,0 +1,100 @@
+.emergency-fund-calculator{
+    background-color: antiquewhite;
+    font-family: "Poppins", serif;
+    width: 800px;
+    height: 550px;
+    box-shadow: 0px 12px 50px -11px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.emergency-fund-calculator .top{
+    
+    background-color: #8F1402;
+    padding: 0.5px;
+    color: white;
+}
+
+
+.emergency-fund-calculator .top h2{
+    text-align: end;
+    padding-right: 24px;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.emergency-fund-calculator .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emergency-fund-calculator form{
+    display: grid;
+    gap: 10px;
+    margin-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.emergency-fund-calculator .group{
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.emergency-fund-calculator .title{
+    margin-right: 50px;
+
+}
+
+.emergency-fund-calculator .income-amount,
+.otherincome-amount,
+.taxdeduction-amount {
+    padding: 5px;
+}
+
+
+.emergency-fund-calculator .result .gross-total{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.emergency-fund-calculator .result h3{
+    font-size: 24px;
+}
+
+
+/* GROSS TOTAL INCOME*/
+.emergency-fund-calculator .result .gross-value{
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 50%;
+}
+
+/* Adding currency symbol before the Gross Total Income*/
+.emergency-fund-calculator .result .gross-value::before{
+    content: "₹";
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.emergency-fund-calculator .next-button{
+    background-color: #484848;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer ;
+    margin: 24px 50px;  /* Position of Next Button*/
+}
